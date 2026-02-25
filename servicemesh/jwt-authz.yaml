@@ -7,7 +7,6 @@ spec:
   selector:
     matchLabels:
       app: backend
-  action: ALLOW
   rules:
   - from:
     - source:
